@@ -1,0 +1,188 @@
+// for string input, always use: String s=sc.readLine().trim();
+// otherwise it will read '\n' at end of line.
+// ArrayIndexOutOfBound Error Correction - readLine() method of reader class has byte[] buf array -> increase its size to upper bound of string length.
+import java.util.*;
+import java.io.*;
+
+public class entry_11216337 {
+ public static class pair {
+  int v, d, par;
+
+  public pair(int v, int d, int par) {
+   this.v = v;
+   this.d = d;
+   this.par = par;
+  }
+ }
+
+ public static void entry_11216337(String[] args) throws IOException {
+  Reader sc = new Reader();
+  PrintWriter out = new PrintWriter(System.out);
+  int n = sc.nextInt();
+  if (n == 1) {
+   out.println(0);
+   out.close();
+   return;
+  }
+  ArrayList<Integer> graph[] = new ArrayList[n];
+  for (int i = 0; i < n; i++) {
+   graph[i] = new ArrayList<>();
+  }
+  for (int i = 1; i < n; i++) {
+   int a = sc.nextInt() - 1, b = sc.nextInt() - 1;
+   graph[a].add(b);
+   graph[b].add(a);
+  }
+  Queue<pair> q = new LinkedList<>();
+  pair p1 = new pair(1, 0, -1);
+  q.add(new pair(1, 0, -1));
+  while (!q.isEmpty()) {
+   pair pp = q.poll();
+   p1 = pp;
+   for (int x : graph[pp.v]) {
+    if (x != pp.par) {
+     q.add(new pair(x, pp.d + 1, pp.v));
+    }
+   }
+  }
+  pair p2 = new pair(1, 0, -1);
+  int d1[] = new int[n];
+  int d2[] = new int[n];
+  q.add(new pair(p1.v, 0, -1));
+  while (!q.isEmpty()) {
+   pair pp = q.poll();
+   d1[pp.v] = pp.d;
+   p2 = pp;
+   for (int x : graph[pp.v]) {
+    if (x != pp.par) {
+     q.add(new pair(x, pp.d + 1, pp.v));
+    }
+   }
+  }
+  q.add(new pair(p2.v, 0, -1));
+  while (!q.isEmpty()) {
+   pair pp = q.poll();
+   d2[pp.v] = pp.d;
+   for (int x : graph[pp.v]) {
+    if (x != pp.par) {
+     q.add(new pair(x, pp.d + 1, pp.v));
+    }
+   }
+  }
+  for (int i = 0; i < n; i++) {
+   out.print(Math.max(d1[i], d2[i]) + " ");
+  }
+  out.println();
+  out.close();
+ }
+
+ // ------------------------------------reader class-----------------------------
+ static class Reader {
+  final private int BUFFER_SIZE = 1 << 16;
+  private DataInputStream din;
+  private byte[] buffer;
+  private int bufferPointer, bytesRead;
+
+  public Reader() {
+   din = new DataInputStream(System.in);
+   buffer = new byte[BUFFER_SIZE];
+   bufferPointer = bytesRead = 0;
+  }
+
+  public Reader(String file_name) throws IOException {
+   din = new DataInputStream(
+     new FileInputStream(file_name));
+   buffer = new byte[BUFFER_SIZE];
+   bufferPointer = bytesRead = 0;
+  }
+
+  public String readLine() throws IOException {
+   byte[] buf = new byte[64]; // line length
+   int cnt = 0, c;
+   while ((c = read()) != -1) {
+    if (c == '\n') {
+     if (cnt != 0) {
+      break;
+     } else {
+      continue;
+     }
+    }
+    buf[cnt++] = (byte) c;
+   }
+   return new String(buf, 0, cnt);
+  }
+
+  public int nextInt() throws IOException {
+   int ret = 0;
+   byte c = read();
+   while (c <= ' ') {
+    c = read();
+   }
+   boolean neg = (c == '-');
+   if (neg)
+    c = read();
+   do {
+    ret = ret * 10 + c - '0';
+   } while ((c = read()) >= '0' && c <= '9');
+   if (neg)
+    return -ret;
+   return ret;
+  }
+
+  public long nextLong() throws IOException {
+   long ret = 0;
+   byte c = read();
+   while (c <= ' ')
+    c = read();
+   boolean neg = (c == '-');
+   if (neg)
+    c = read();
+   do {
+    ret = ret * 10 + c - '0';
+   } while ((c = read()) >= '0' && c <= '9');
+   if (neg)
+    return -ret;
+   return ret;
+  }
+
+  public double nextDouble() throws IOException {
+   double ret = 0, div = 1;
+   byte c = read();
+   while (c <= ' ')
+    c = read();
+   boolean neg = (c == '-');
+   if (neg)
+    c = read();
+   do {
+    ret = ret * 10 + c - '0';
+   } while ((c = read()) >= '0' && c <= '9');
+   if (c == '.') {
+    while ((c = read()) >= '0' && c <= '9') {
+     ret += (c - '0') / (div *= 10);
+    }
+   }
+   if (neg)
+    return -ret;
+   return ret;
+  }
+
+  private void fillBuffer() throws IOException {
+   bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
+   if (bytesRead == -1)
+    buffer[0] = -1;
+  }
+
+  private byte read() throws IOException {
+   if (bufferPointer == bytesRead)
+    fillBuffer();
+   return buffer[bufferPointer++];
+  }
+
+  public void close() throws IOException {
+   if (din == null)
+    return;
+   din.close();
+  }
+ }
+ // -----------------------------------------------
+}
