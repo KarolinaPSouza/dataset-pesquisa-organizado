@@ -1,0 +1,39 @@
+andrews@debian:~/Documents/problemasIC(editado)/dataset-pesquisa/1642-Sum_of_Four_Values/java$ make
+javac entry_5265276.java 
+entry_5265276.java:80: error: incompatible types: cannot infer type arguments for ArrayList<>
+                    List<Integer> list = new ArrayList<>();
+                                                      ^
+    reason: no instance(s) of type variable(s) E exist so that ArrayList<E> conforms to List<Integer>
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+entry_5265276.java:262: error: no suitable method found for sort(ArrayList<Integer>)
+      Collections.sort(ls);
+                 ^
+    method Collections.<T#1>sort(List<T#1>) is not applicable
+      (cannot infer type-variable(s) T#1
+        (argument mismatch; ArrayList<Integer> cannot be converted to List<T#1>))
+    method Collections.<T#2>sort(List<T#2>,Comparator<? super T#2>) is not applicable
+      (cannot infer type-variable(s) T#2
+        (actual and formal argument lists differ in length))
+  where T#1,T#2 are type-variables:
+    T#1 extends Comparable<? super T#1> declared in method <T#1>sort(List<T#1>)
+    T#2 extends Object declared in method <T#2>sort(List<T#2>,Comparator<? super T#2>)
+entry_5265276.java:271: error: no suitable method found for sort(ArrayList<Integer>)
+      Collections.sort(ls);
+                 ^
+    method Collections.<T#1>sort(List<T#1>) is not applicable
+      (cannot infer type-variable(s) T#1
+        (argument mismatch; ArrayList<Integer> cannot be converted to List<T#1>))
+    method Collections.<T#2>sort(List<T#2>,Comparator<? super T#2>) is not applicable
+      (cannot infer type-variable(s) T#2
+        (actual and formal argument lists differ in length))
+  where T#1,T#2 are type-variables:
+    T#1 extends Comparable<? super T#1> declared in method <T#1>sort(List<T#1>)
+    T#2 extends Object declared in method <T#2>sort(List<T#2>,Comparator<? super T#2>)
+entry_5265276.java:272: error: incompatible types: ArrayList<Integer> cannot be converted to List<?>
+      Collections.reverse(ls);
+                          ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+4 errors
+make: *** [Makefile:4: entry_5265276.class] Error 1
+
