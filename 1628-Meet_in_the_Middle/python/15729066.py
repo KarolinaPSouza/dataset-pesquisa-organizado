@@ -1,0 +1,1 @@
+from collections import Counter as C;d=list(map(int,open(0).read().split()));x=d[1];a=d[2:];m=len(a)//2;s=[0];[s.extend([u+v for u in s])for v in a[:m]];t=[0];[t.extend([u+v for u in t])for v in a[m:]];c=C(t);print(sum(c[x-u]for u in s))
