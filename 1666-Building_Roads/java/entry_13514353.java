@@ -5,6 +5,9 @@ import java.util.*;
 
 public class entry_13514353 {
 
+}
+
+class buildingRoads {
     private int[] parent;
     private int[] rank;
     int count = 0;

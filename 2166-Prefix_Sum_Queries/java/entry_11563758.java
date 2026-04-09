@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class entry_11563758 {
+}
+class main {
     static int mod = (int)1e9 + 7;    
 
     static class Reader {
@@ -275,3 +277,4 @@ public class entry_11563758 {
         // }
     }
 }
+

@@ -1,8 +1,11 @@
 import java.io.*;
 import java.util.*;
 
-public class entry_3536667
-{
+public class entry_3536667 { 
+}
+
+class primeMultiples { 
+
  static long count=0;
  public void backTrack(int i,ArrayList<Long> nums, long pro, int c, long n)
  {

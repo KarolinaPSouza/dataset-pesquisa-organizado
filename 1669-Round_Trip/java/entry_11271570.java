@@ -2,6 +2,10 @@ import java.util.*;
 import java.io.*;
 
 public class entry_11271570 {
+
+}
+
+class BeingZero {
     int[] vis;
     int till;
     List<Integer> v;

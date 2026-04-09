@@ -4,6 +4,9 @@
 import java.util.*;
 
 public class entry_15466660 {
+}
+
+class Solution {
     public static final int mod = 1_000_000_007;
 
     public static int count(int[] coins, int target) {
