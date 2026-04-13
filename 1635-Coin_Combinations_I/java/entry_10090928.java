@@ -32,13 +32,13 @@ public class entry_10090928 {
     }
 }
 
-class Scanner {
+class test {
 
     private final BufferedReader br;
     private StringTokenizer st;
 
 
-    public Scanner(InputStream in) {
+    public test(InputStream in) {
         this.br = new BufferedReader(new InputStreamReader(in));
     }
 
