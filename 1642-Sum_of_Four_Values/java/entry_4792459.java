@@ -9,7 +9,7 @@ public class entry_4792459 {
         int x = input.nextInt();
         for (int i = 0; i < a.length; i++)
             a[i] = input.nextInt();
-        ArrayList<Sum> sums = new ArrayList<>(a.length * (a.length - 1) / 2);
+        MyArrayList<Sum> sums = new MyArrayList<>(a.length * (a.length - 1) / 2);
         for (int i = 0; i < a.length; i++)
         {
             for (int j = i + 1; j < a.length; j++)
@@ -325,18 +325,18 @@ class Output
     }
 }
 
-class ArrayList<E> implements Cloneable, Iterable<E>
+class MyArrayList<E> implements Cloneable, Iterable<E>
 {
     private static final Object[] EMPTY = new Object[0];
     private E[] array;
     private int size;
 
-    public ArrayList()
+    public MyArrayList()
     {
         array = (E[])EMPTY;
     }
 
-    public ArrayList(int n)
+    public MyArrayList(int n)
     {
         array = (E[])new Object[n];
     }
@@ -346,11 +346,11 @@ class ArrayList<E> implements Cloneable, Iterable<E>
         return size;
     }
 
-    public ArrayList<E> clone()
+    public MyArrayList<E> clone()
     {
         try
         {
-            ArrayList<E> clone = (ArrayList<E>)super.clone();
+            MyArrayList<E> clone = (MyArrayList<E>)super.clone();
             clone.array = size == 0 ? (E[])EMPTY : array.clone();
             return clone;
         }
@@ -411,7 +411,7 @@ class ArrayList<E> implements Cloneable, Iterable<E>
         return array;
     }
 
-    public void sort(Comparator<E> comparator)
+    public void sort(MyComparator<E> comparator)
     {
         Arrays.sort(array, 0, size, comparator::compare);
     }
@@ -432,7 +432,7 @@ class ArrayList<E> implements Cloneable, Iterable<E>
     }
 }
 
-interface Comparator<T>
+interface MyComparator<T>
 {
     int compare(T a, T b);
 }
