@@ -28,14 +28,14 @@ public class entry_826527 {
         Reader sc = new Reader();
 
 
-        TreeSet<Node> set = new TreeSet<Node>(new Comparator<Node>(){
-            public int compare(Node a,Node b){
-                if(a.x==b.x){
-                    return a.y-b.y;
-                }
-                return a.x-b.x;
-            }
-        });
+        TreeSet<Node> set = new TreeSet<Node>(new java.util.Comparator<Node>(){
+    public int compare(Node a,Node b){
+        if(a.x==b.x){
+            return a.y-b.y;
+        }
+        return a.x-b.x;
+    }
+});
 
         set.add(new Node(-1,0));
         int n = sc.nextInt();

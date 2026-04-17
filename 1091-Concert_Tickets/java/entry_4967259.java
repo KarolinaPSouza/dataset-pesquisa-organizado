@@ -6,7 +6,7 @@
 import java.io.*;
 import java.util.*;
 
-class ConcertTickets {
+class entry_4967259 {
     static class FastReader {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;

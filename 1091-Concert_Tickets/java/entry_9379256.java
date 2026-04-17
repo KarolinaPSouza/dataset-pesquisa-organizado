@@ -2,7 +2,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.util.TreeMap;
 
-class Main {
+class entry_9379256 {
     static class CustomReader {
         final private int BUFFER_SIZE = 64 * 1024; // 64kbs adjust as needed
         final private DataInputStream dis;

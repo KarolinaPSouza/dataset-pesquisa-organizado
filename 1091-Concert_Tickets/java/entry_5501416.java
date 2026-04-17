@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
 
-class ConcertTickets {
+class  entry_5501416{
 
     static class Reader {
         final private int BUFFER_SIZE = 1 << 16;

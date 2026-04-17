@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class ConcertTickets {
+class entry_2473788 {
 
  public static void main(String[] args) {
 

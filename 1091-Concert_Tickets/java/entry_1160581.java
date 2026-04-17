@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 
-class Main {
+class entry_1160581 {
 
     private static Reader sc;
 

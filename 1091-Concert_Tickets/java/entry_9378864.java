@@ -2,7 +2,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.util.TreeMap;
 
-class Main {
+class entry_9378864 {
 
     // a constant for regex used to split the space from user input
     public static final String SPACE = " ";

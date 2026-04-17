@@ -5,7 +5,7 @@ import java.util.TreeMap;
 import java.io.*;
 import java.util.*;
 
-class ConcertTickets{
+class entry_11817360 {
 
     public static void main(String[] args) throws IOException {
         Reader io = new Reader();

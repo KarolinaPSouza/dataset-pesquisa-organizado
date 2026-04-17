@@ -1175,7 +1175,7 @@ public class entry_3729462 {
    a.add(arr[i]);
   }
 //  Collections.sort(a);
-  Collections.sort(a,Comparator.reverseOrder());
+  Collections.sort(a, (x, y) -> Long.compare(y, x));
   for (int i = 0; i < arr.length; i++) {
    arr[i]=a.get(i);
   }

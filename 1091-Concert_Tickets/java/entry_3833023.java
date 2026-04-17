@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Reader { 
+class entry_3833023 { 
   public static void main(String[] args) throws FileNotFoundException {
     // InputStream in = new FileInputStream("test_input.txt");
     InputStream in = System.in;

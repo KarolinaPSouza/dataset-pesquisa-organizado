@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Solution {
+class entry_804494 {
 
     static class Pair {
         int value;

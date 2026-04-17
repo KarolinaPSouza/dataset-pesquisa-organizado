@@ -2,7 +2,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.util.TreeMap;
 
-class Main {
+class entry_9378891 {
     static class CustomReader {
         final private int BUFFER_SIZE = 1 << 16;
         final private DataInputStream dis;
