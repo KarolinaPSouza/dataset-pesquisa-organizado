@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-class Booksknsck {
+class entry_510766 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader  = new BufferedReader(new InputStreamReader(System.in));
         String[] lo = reader.readLine().split(" ");

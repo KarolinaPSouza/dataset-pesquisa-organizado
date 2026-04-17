@@ -1,6 +1,6 @@
 import java.util.*;
 
-class cses {
+class entry_10342403 {
     public static final int mod = 1000000007;
     static int[] costs;
     static int[] pages;

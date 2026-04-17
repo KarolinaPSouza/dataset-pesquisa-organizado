@@ -1,5 +1,5 @@
 import java.util.*;
-class book{
+class entry_13179138 {
 
     static int dp[];
 

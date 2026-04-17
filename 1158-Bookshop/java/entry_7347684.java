@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 import java.io.PrintWriter;
 
 
-class Main{
+class  entry_7347684 {
 
 
     private static int MOD = 1000000007;

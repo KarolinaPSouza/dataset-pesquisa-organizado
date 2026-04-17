@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class BookShop 
+class entry_468822
 { 
     static class FastReader 
     { 

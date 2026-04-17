@@ -1,6 +1,6 @@
 import java.util.*;
 
-class cf{
+class entry_13691317 {
     static  int dp[];
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
