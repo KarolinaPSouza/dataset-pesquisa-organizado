@@ -1,6 +1,6 @@
 import java.util.*;
 
-class file1{
+class entry_10347531 {
  public static boolean[][] visited;
  public static char[][] grid;
  public static int n,m;

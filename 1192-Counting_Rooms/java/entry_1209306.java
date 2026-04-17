@@ -2,7 +2,7 @@ import java.io.*;
 import java.math.*;
 import java.util.*;
 
-class Solution {
+class  entry_1209306 {
     static int R,C,count = 0;
     //variable to check whether we reached to target destination or not
     static boolean visited[][];

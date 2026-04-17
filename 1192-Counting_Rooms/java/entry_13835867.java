@@ -1,6 +1,6 @@
 import java.util.*;
 
-class B {
+class entry_13835867 {
 
     public static void bfs(int[] node, int[][] movement, boolean[][] visited, char[][] board, Queue<int[]> queue) {
         visited[node[0]][node[1]] = true;

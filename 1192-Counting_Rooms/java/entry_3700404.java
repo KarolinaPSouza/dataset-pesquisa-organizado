@@ -1,9 +1,10 @@
 import java.util.*;
 import java.io.*;
 import java.text.*;
-class comp
+
+class entry_3700404
 {
- static class FastReader 
+ static class FastReader
  { 
   BufferedReader br; 
   StringTokenizer st; 
