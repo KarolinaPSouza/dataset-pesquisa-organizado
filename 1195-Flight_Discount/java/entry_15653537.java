@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+class entry_15653537 {
 
     // Represents a state in the priority queue
     static class State implements Comparable<State> {

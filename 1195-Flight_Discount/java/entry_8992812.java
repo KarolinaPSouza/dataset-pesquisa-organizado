@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 
 @SuppressWarnings("unchecked")
-class FlightDiscount{
+class entry_8992812 {
 
     static class City
     {

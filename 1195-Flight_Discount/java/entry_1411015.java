@@ -14,7 +14,7 @@ import java.io.*;
 import java.math.*;
 import java.util.concurrent.TimeUnit;
 
-class Main{
+class entry_1411015 {
   static class pair implements Comparable<pair>{
     int end;
     long weight;
