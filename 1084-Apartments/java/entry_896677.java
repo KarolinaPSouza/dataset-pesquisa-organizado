@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 import java.math.BigInteger;
-class Ideone1{
+class entry_896677{
  static class InputReader {
     private boolean finished = false;
 

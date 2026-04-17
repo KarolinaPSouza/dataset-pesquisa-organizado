@@ -43,7 +43,7 @@ import static java.lang.Math.floor;
 import static java.lang.Math.pow;
 import static java.lang.System.out;
 
-class Main { // public for CF
+class entry_5644977 { // public for CF
 
     static long modd = 1000000007L;
 

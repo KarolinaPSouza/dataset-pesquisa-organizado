@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Solution {
+class entry_2120081 {
 
     public static void main(String[] args) throws Exception {
         solve();

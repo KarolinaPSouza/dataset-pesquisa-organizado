@@ -5,7 +5,7 @@ import java.io.StreamTokenizer;
 import java.util.Arrays;
 import java.util.Scanner;
 
-class Solution {
+class entry_1454639 {
     private static StreamTokenizer in;
 
     public static int nextInt() throws IOException {

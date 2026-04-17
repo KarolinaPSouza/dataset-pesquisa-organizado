@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.TreeMap;
 
-class Apartments{
+class entry_2183400 {
  public static void main(String args[]) throws IOException{
  BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
  String[] i1=br.readLine().split(" ");
