@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Codechef {
+class entry_13633969 {
     public static void main(String[] args) throws IOException {
         // fast I/O
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

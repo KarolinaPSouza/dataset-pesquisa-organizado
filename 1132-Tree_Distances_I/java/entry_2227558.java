@@ -3,7 +3,7 @@ import java.util.*;
 import java.math.*;
 import java.math.BigInteger; 
 //import javafx.util.*; 
-class Main
+class entry_2227558
 {    
  static StringBuilder ans=new StringBuilder();
  static FastReader in=new FastReader();

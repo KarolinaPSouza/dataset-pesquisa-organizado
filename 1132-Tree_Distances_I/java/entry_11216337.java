@@ -15,7 +15,7 @@ public class entry_11216337 {
   }
  }
 
- public static void entry_11216337(String[] args) throws IOException {
+  public static void main(String[] args) throws IOException {
   Reader sc = new Reader();
   PrintWriter out = new PrintWriter(System.out);
   int n = sc.nextInt();

@@ -199,7 +199,7 @@ class QuickReader {
 class SuperQuickReader
 {
  final int BUFFER_SIZE = 4096;
- Reader in;
+ java.io.InputStreamReader in;
 
  char[] buf = new char[BUFFER_SIZE];
  int bufL, bufR;

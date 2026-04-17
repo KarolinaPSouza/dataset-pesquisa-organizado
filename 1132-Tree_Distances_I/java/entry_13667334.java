@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class TDistance {
+class entry_13667334 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StreamTokenizer st = new StreamTokenizer(br);
 

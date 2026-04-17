@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Tree{
+class entry_14448361{
  static int[] bfs(int i,List<List<Integer>> adj){
   int n = adj.size();
         int[] dist = new int[n];
