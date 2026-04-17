@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Main {
+class entry_13631638 {
     static class Edge {
     int from, to;
     long cost;

@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class cyclefinding {
+class entry_14747511 {
     static class Pair{
         int v;
         long w;

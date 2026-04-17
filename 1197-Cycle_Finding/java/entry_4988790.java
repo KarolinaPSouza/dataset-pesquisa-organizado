@@ -194,7 +194,7 @@ public class entry_4988790 {
             return Long.parseLong(next());
         }
     }
-    static public class entry_4988790 {
+    static public class FastReader {
 
         public static final int DEFAULT_BUFFER_SIZE = 65536;
         public static final int DEFAULT_INTEGER_SIZE = 11;

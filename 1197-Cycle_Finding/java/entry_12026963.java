@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.*;
 
 
-class Main {
+class entry_12026963 {
 
     static int n;
     static int m;

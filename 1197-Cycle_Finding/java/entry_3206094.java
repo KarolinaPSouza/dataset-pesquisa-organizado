@@ -1,6 +1,6 @@
 import java.util.*;
 
-class CycleFinding {
+class entry_3206094 {
 
  static HashMap<Integer, List<int[]>> adj = new HashMap();
 

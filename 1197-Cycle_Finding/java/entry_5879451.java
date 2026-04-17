@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-class Main {
+class  entry_5879451 {
 
     static class Node {
         int x, y;

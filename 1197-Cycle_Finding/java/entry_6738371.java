@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
- class cses1193 {
+ class entry_6738371 {
     public static int[] dX = {1, -1, 0, 0};
     public static int[] dY = {0, 0, 1, -1};
     public static String dirs = "DURL";
