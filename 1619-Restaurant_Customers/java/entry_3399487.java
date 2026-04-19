@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
-class Restaurant {
+class entry_3399487 {
  public static class Pair{
   int time;
   boolean flag;

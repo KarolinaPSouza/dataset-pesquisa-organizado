@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Main
+class entry_5104073
 {
     static BufferedWriter put = new BufferedWriter(new OutputStreamWriter(System.out));
     static int intmax = Integer.MAX_VALUE;

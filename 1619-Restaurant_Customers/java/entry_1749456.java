@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Random;
 
-class Solution {
+class  entry_1749456 {
     private static StreamTokenizer in;
     private static StreamTokenizer in2;
     private static PrintWriter out;

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class restaurantCustomers{
+class entry_2390077 {
     public static long mod = (long)1e9+7;
     public static ArrayList<Integer>[] graph;
     public static void main(String[] args) {

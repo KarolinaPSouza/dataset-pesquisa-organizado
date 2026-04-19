@@ -6,14 +6,14 @@ public class entry_14736321 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(System.out);
-        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = Integer.parseInt(st.nextToken());
+        int n = Integer.parseInt(br.readLine().trim());
 
-         Set<Integer> s = new HashSet<>();
+        Set<Integer> s = new HashSet<>();
 
-        st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            s.add(Integer.parseInt(st.nextToken()));
             s.add(Integer.parseInt(st.nextToken()));
         }
 
