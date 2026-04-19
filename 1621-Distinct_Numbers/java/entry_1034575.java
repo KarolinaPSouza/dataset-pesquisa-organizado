@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class Solution{
+class entry_1034575 {
     static class InputReader{
         BufferedReader reader;
         StringTokenizer tokenizer;

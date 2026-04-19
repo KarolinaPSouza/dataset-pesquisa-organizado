@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-class SiddhantJaiswalDistinctNumbers
+class entry_1067250
 {
     public static void main(String[] args)
     {

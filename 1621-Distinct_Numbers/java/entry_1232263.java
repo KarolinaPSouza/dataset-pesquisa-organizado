@@ -1,5 +1,5 @@
 import java.util.*;
-class DistinctNumbers
+class entry_1232263
 // Status: Passed
 {
     public static void main(String[] args)

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-class t {
+class entry_12122125 {
     public static void main(String args[]) {
 
         // BufferedReader reader;

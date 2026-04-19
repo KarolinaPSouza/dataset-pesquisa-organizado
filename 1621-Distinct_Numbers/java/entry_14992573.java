@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+class entry_14992573 {
 
     FastReader in = new FastReader();
     StringBuilder out = new StringBuilder();
@@ -17,7 +17,7 @@ class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        new Main().solve();
+        new entry_14992573().solve();
     }
 
     // reusable fast input

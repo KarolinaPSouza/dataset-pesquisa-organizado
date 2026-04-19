@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 
-class Solution {
+class entry_12197516 {
 
     public static void main(String args[]) throws IOException {
 

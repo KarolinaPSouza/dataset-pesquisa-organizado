@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution
+class entry_5960009
 {
     public static void main(String [] args) throws IOException
     {
