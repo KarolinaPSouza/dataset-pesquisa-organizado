@@ -4,8 +4,8 @@
 import java.io.*;
 import java.util.*;
  
-public class CSES1628 extends PrintWriter {
-	CSES1628() {
+public class entry_174351 extends PrintWriter {
+	entry_174351() {
 		super(System.out, true);
 		try { _bb = System.in.readAllBytes(); } catch (IOException e) {}
 	}
@@ -17,7 +17,7 @@ public class CSES1628 extends PrintWriter {
 		while (_i < n && _bb[_i] > 32) a = a * 10 + _bb[_i++] - '0';
 		return a;
 	}
-	public static void main(String[] __) { new CSES1628().main(); }
+	public static void main(String[] __) { new entry_174351().main(); }
  
 	long[] tt;
 	long[] build(int[] aa, int l, int r) {

@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class JaiShreeHanuman{
+public class entry_16078343{
 	static Scanner in=new Scanner();
 	static long systemTime;
 	static long mod = 1000000007;

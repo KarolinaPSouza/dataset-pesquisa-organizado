@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
  
-public class Codeforces {
+public class entry_12486986 {
     private static int mod = (int) 1e9 + 7;
  
     public static void main(String[] args) {

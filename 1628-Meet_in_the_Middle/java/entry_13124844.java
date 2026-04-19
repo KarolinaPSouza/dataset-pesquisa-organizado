@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.StringTokenizer;
  
-public class MeetInTheMiddle {
+public class entry_13124844 {
  
   public static void main(String[] args) {
  

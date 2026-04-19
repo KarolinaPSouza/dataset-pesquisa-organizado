@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
  
-public class Laddu {
+public class entry_14187009 {
     public static void main(String[] args) throws Exception {
         FastScanner fs = new FastScanner(System.in);
         int n = fs.nextInt();

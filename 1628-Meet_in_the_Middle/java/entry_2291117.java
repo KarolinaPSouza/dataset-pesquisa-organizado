@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
  
-public class Template {
+public class entry_2291117 {
  
 	static int mod = 1000000007;
 //	static Map<Integer,Integer> lmap = new HashMap<>();

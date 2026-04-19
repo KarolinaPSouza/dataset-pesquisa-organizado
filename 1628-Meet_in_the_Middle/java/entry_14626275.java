@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
  
 //took help from this https://cses.fi/problemset/hack/1628/entry/11369969/
-class MeetInTheMiddle {
+class entry_14626275 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));

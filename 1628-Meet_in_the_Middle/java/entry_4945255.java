@@ -1,6 +1,6 @@
 import java.util.*;
  
-public class Main
+public class entry_4945255
 {
     public static void main(String[] args)
     {

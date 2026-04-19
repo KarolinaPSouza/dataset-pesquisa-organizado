@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.concurrent.*;
  
-class main {
+class entry_11369969 {
  
     // Generate subset sums iteratively
     static void calcSubsetSums(long[] array, long[] output, int n, int offset) {

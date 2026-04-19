@@ -2,7 +2,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
  
-public class MeetInTheMiddle4 {
+public class entry_1512933 {
     private static long[] temp;
  
     static long[] build(int[] arr, int l, int r) {

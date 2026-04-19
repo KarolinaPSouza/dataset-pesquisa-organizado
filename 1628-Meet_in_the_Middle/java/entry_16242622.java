@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
  
-public class MeetintheMiddle {
+public class entry_16242622 {
     static long[] coins;
     static Map<Long, Long> freq = new HashMap<>();
     static long target;

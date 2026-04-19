@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
  
-public class Solution extends PrintWriter {
+public class entry_1045636 extends PrintWriter {
     
     int n;
     long x;
@@ -105,9 +105,7 @@ public class Solution extends PrintWriter {
         }
     }
     
-//  Solution() throws FileNotFoundException { super(new File("output.txt")); }
-//  Scanner sc = new Scanner(new FileInputStream("test_input.txt"));
-  Solution() { super(System.out); }
+  entry_1045636() { super(System.out); }
   Scanner sc = new Scanner(System.in);
   static class Scanner {
       Scanner(InputStream in) { this.in = in; } InputStream in;
@@ -137,7 +135,7 @@ public class Solution extends PrintWriter {
       new Thread(null, new Runnable() {
           public void run() {
               long start = System.nanoTime();
-              try {Solution solution = new Solution(); solution.solve(); solution.flush();} 
+              try {entry_1045636 solution = new entry_1045636(); solution.solve(); solution.flush();} 
               catch (Exception e) {e.printStackTrace(); System.exit(1);}
               System.err.println((System.nanoTime()-start)/1E9);
           }

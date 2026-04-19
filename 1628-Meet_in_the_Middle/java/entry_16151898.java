@@ -3,7 +3,7 @@ import java.lang.*;
 import java.math.*;
 import java.util.*;
  
-public class Check { 
+public class entry_16151898 { 
     static FastIO io = new FastIO();
  
     public static void main(String[] args) throws Exception {
