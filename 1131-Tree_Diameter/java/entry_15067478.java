@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+public class entry_15067478 {
     public static void main(String[] args) {
         FastReader sc = new FastReader();
         PrintWriter out = new PrintWriter(System.out);

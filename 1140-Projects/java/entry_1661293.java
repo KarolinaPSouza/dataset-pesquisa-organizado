@@ -1,11 +1,11 @@
 import java.io.*;
 import java.util.*;
 
-class Projects {
+public class entry_1661293 {
 
  public static void main(String[] args) throws IOException {
 
-  Projects obj = new Projects();
+  entry_1661293 obj = new entry_1661293();
 
   obj.doStuff();
 

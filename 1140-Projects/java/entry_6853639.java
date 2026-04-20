@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class cses {
+public class entry_6853639 {
 //    public static void main(String[] args) {
 //        FastReader fs = new FastReader();
 //        int t = fs.nextInt();

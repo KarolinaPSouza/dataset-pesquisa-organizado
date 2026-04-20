@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.concurrent.*;
 
-final class Solution {
+public class entry_4760089 {
 
 
   static InputStream in = new BufferedInputStream(System.in);

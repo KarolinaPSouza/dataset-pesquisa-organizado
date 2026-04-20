@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class projects {
+public class entry_15029949 {
     static class jobs{
         int s;
         int e;

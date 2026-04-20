@@ -3,7 +3,7 @@ import java.util.*;
 
 
 
-class Main {
+public class entry_10841381{
 
     static class Reader { 
         final private int BUFFER_SIZE = 1 << 16; 

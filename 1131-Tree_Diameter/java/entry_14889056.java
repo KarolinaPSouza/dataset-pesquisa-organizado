@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+public class entry_14889056 {
 
     FastReader in = new FastReader();
     StringBuilder out = new StringBuilder();

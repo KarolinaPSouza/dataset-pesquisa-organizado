@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class CSES1140 {
+public class entry_2030045{
  static BufferedReader br;
  static StringTokenizer st;
  static PrintWriter pw;

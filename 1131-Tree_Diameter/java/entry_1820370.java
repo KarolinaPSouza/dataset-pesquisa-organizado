@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Solution {
+public class entry_1820370 {
     private static StreamTokenizer in;
     private static StreamTokenizer in2;
     private static PrintWriter out;

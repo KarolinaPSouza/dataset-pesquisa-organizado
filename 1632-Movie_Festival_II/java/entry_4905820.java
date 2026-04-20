@@ -360,7 +360,7 @@ class Output
     }
 }
 
-interface Comparator<T>
+interface myComparator<T>
 {
     int compare(T a, T b);
 }

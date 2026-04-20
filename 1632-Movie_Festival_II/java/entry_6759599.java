@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.*;
 
-class MovieFestivalII {
+public class entry_6759599 {
 
     static PrintWriter out;
     static Utility util;
